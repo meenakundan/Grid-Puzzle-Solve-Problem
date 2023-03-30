@@ -1,0 +1,51 @@
+                                             NAME-KUNDAN MEENA
+                                             ROLL NO.-210101060
+                                             ASSIGNMENT-3
+
+
+QUESTION 1:-
+-----------
+
+ASSUMPTION- the game will end if there is only one person left
+
+python code file name"210101060_Assign03q1.py",
+command to run - "python filename"
+                -"python 210101060_Assign03q1.py"
+
+explanation of code- 
+
+-> first of all I take input no of person and skip number from user.
+-> then I make a list and assign a number to each person from 1 to n.
+-> then i ran a while loop untill the number of killed person is n-1
+   in which a person kills a person which is skip number left to him.    
+
+--------------------------------------------------------------------------------------------------------------------------
+QUESTION 2:-
+----------
+NOTE-Here I use "hueristic method" that will not gives us the optimal solution (solution with minimum steps) 
+     but it will gives us the solution with in minimum time with respect to other method.
+
+python code file name "210101060_Assign03q2.py",
+command to run -  "python filename"
+                  "python 210101060_Assign03q2.py",
+
+explaintion of code-
+-> firt of all I make function " inversion()" for Counting the inversion value of a given matrix
+ that will be used in if_solve function.
+->then i make function "if_solvable()" for checking if puzzel is solvable or not
+
+->then i make function "misplaced()" for Counting the number of misplaced tiles for a state of the 8 puzzle
+
+->then i make function "print_in_format() " that will print the list in matrix formate
+
+->then i make the fuction "bestmove()" that will give us the matrix that will have least number of misplaced tiles after moving blank tile one time
+
+->then i take unsolved initial puzzle in input from user
+->then i take goal puzzle in input from user
+->then i make make a list "list_of_state" that will contain first 10 states
+->then i code accordingly
+
+-> at last I print the first 10 steps if it is solvable in less than or equal to 10 steps
+-> if it is not possible to solve puzzle in 10 steps then it will print "reachable but it will take more than 10 steps" .
+
+----------------------------------------------------//end of file//---------------------------------------------------------------
